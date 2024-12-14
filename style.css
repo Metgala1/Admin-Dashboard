@@ -9,6 +9,10 @@
     font-family: "myfont";
     src: url(Doto/Doto-VariableFont_ROND\,wght.ttf);
 }
+@font-face {
+    font-family: "secondfont";
+    src: url(Roboto/Roboto-Italic.ttf);
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -63,6 +67,7 @@ h1{
  font-size: 1.5rem;
  text-align: center;
  padding-top: 3%;
+ font-weight: 900;
 }
 .nav-bar ul{
     list-style: none;
@@ -128,6 +133,8 @@ h1 .mdi-view-dashboard{
     grid-row: 1;
     margin: auto;
     margin-right: 2rem;
+    font-family: "secondfont";
+    font-weight: 900;
     
     
 }
@@ -369,4 +376,9 @@ h4{
     color: rgb(25, 146, 212);
     font-size: 1.5rem;
 }
+.div-8 div a{
+    font-family: "dsecondfont";
+    font-weight: 900;
+}
+
 
