@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    zoom: none;
     
 }
 body{
@@ -69,7 +70,7 @@ h1{
     padding-top: 4%;
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
-    border-radius: 10px;
+    
     
     
     
@@ -201,4 +202,65 @@ button:hover{
 }
 .mdi-magnify{
     cursor: pointer;
+}
+/*This is style for the main*/
+main{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    overflow: auto;
+    row-gap: 20px;
+    overflow-y: auto;
+
+}
+main > div{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#project-text{
+    grid-column: 2;
+    text-wrap: nowrap;
+}
+#announcement{
+    grid-column: 15 / 17;
+}
+#trending{
+    grid-column: 15 /17;
+    grid-row: 11;
+}
+.div-1{
+    grid-column: 2 / 7;
+    grid-row: 2 / 8;
+    
+}
+.div-2{
+   grid-row: 8 / 14;
+   grid-column: 2 / 7;
+}
+.div-3{
+    grid-column: 2 / 7;
+    grid-row: 14 / 20;
+}
+.div-4{
+    grid-column: 8 / 13;
+    grid-row: 2 / 8;
+    
+}
+.div-5{
+    grid-column: 8 / 13;
+    grid-row: 8 / 14;
+}
+.div-6{
+    grid-column: 8 / 13;
+    grid-row: 14 / 20;
+}
+.div-7{
+    grid-column: 14 / 18;
+    grid-row: 2 / 11;
+}
+.div-8{
+    grid-column: 14 / 18;
+    grid-row: 12 / 20
 }
