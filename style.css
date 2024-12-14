@@ -5,6 +5,10 @@
     zoom: none;
     
 }
+@font-face {
+    font-family: "myfont";
+    src: url(Doto/Doto-VariableFont_ROND\,wght.ttf);
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -96,6 +100,9 @@ span{
     background-color: rgb(163, 203, 228);
     font-size: larger;
 
+}
+h1{
+    font-family: "myfont";
 }
 h1 .mdi-view-dashboard{
     font-size: 2rem;
@@ -223,20 +230,20 @@ main > div{
 #project-text{
     grid-column: 2;
     text-wrap: nowrap;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-weight: 900;
 }
 #announcement{
     grid-column: 15 / 17;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-weight: 900;
 }
 #trending{
     grid-column: 15 /17;
     grid-row: 11;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-weight: 900;
 }
@@ -309,14 +316,19 @@ main > div{
 }
 .div-7{
     grid-column: 14 / 18;
-    grid-row: 2 / 11;
+    grid-row: 2 / 10;
     display: grid;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,minmax(150px,9rem));
 
 }
 .div-8{
     grid-column: 14 / 18;
-    grid-row: 12 / 20
+    grid-row: 12 / 20;
+    background-color: white;
+    height: 12rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+
 }
 main > div:hover{
     box-shadow: 1px 1px 20px 1px rgba(0,0,0, 0.4);
@@ -325,6 +337,7 @@ main > div:hover{
     text-align: center;
     background-color: white;
     border-radius: 10px;
+    padding: 0.5rem;
 
 }
 .div7-1,.div7-2{
@@ -332,8 +345,27 @@ main > div:hover{
 }
 h4{
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
     font-weight: 900;
 
+}
+.div-8 > div img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 5px;
+    border-radius: 50%;
+
+}
+.div-8 div *{
+    display: inline;
+    text-align: center;
+}
+.div-8 a{
+    margin-left: 1rem;
+    color: black;
+    text-decoration: none;
+}
+.div-8 a:hover{
+    color: rgb(25, 146, 212);
+    font-size: 1.5rem;
 }
 
