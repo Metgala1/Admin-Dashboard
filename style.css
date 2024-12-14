@@ -215,7 +215,6 @@ main{
 
 }
 main > div{
-    background-color: antiquewhite;
     border: none;
     border-radius: 10px;
     
@@ -224,18 +223,27 @@ main > div{
 #project-text{
     grid-column: 2;
     text-wrap: nowrap;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
 }
 #announcement{
     grid-column: 15 / 17;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
 }
 #trending{
     grid-column: 15 /17;
     grid-row: 11;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
 }
 .div-1{
     grid-column: 2 / 7;
     grid-row: 2 / 8;
-    border-left: 1rem solid rgb(25, 146, 212);
+    border-left: 0.5rem solid rgb(25, 146, 212);
     width: 300px;
     height: 300px;
     background-color: black;
@@ -246,7 +254,7 @@ main > div{
 .div-2{
    grid-row: 8 / 14;
    grid-column: 2 / 7;
-   border-left: 1rem solid rgb(25, 146, 212);
+   border-left: 0.5rem solid rgb(25, 146, 212);
    width: 300px;
    height: 300px;
    background-color: black;
@@ -257,7 +265,7 @@ main > div{
 .div-3{
     grid-column: 2 / 7;
     grid-row: 14 / 20;
-    border-left: 1rem solid rgb(25, 146, 212);
+    border-left: 0.5rem solid rgb(25, 146, 212);
     width: 300px;
    height: 300px;
    background-color: black;
@@ -268,7 +276,7 @@ main > div{
 .div-4{
     grid-column: 8 / 13;
     grid-row: 2 / 8;
-    border-left: 1rem solid rgb(25, 146, 212);
+    border-left: 0.5rem solid rgb(25, 146, 212);
     width: 300px;
     height: 300px;
     background-color: black;
@@ -281,7 +289,7 @@ main > div{
 .div-5{
     grid-column: 8 / 13;
     grid-row: 8 / 14;
-    border-left: 1rem solid rgb(25, 146, 212);
+    border-left: 0.5rem solid rgb(25, 146, 212);
     width: 300px;
    height: 300px;
    background-color: black;
@@ -291,7 +299,7 @@ main > div{
 .div-6{
     grid-column: 8 / 13;
     grid-row: 14 / 20;
-    border-left: 1rem solid rgb(25, 146, 212);
+    border-left: 0.5rem solid rgb(25, 146, 212);
     width: 300px;
     height: 300px;
     background-color: black;
@@ -302,6 +310,8 @@ main > div{
 .div-7{
     grid-column: 14 / 18;
     grid-row: 2 / 11;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
 
 }
 .div-8{
@@ -311,19 +321,19 @@ main > div{
 main > div:hover{
     box-shadow: 1px 1px 20px 1px rgba(0,0,0, 0.4);
 }
-.div-1 #rock-paper-scissors{
- width: 100%;
- object-fit:  contain;
- border-radius: 10px;
-}
-figcaption{
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-}
-.div-4 #sign-up-form{
-    width: 100%;
-    object-fit: contain;
+.div-7 *{
+    text-align: center;
+    background-color: white;
     border-radius: 10px;
-    
+
+}
+.div7-1,.div7-2{
+    border-bottom: 3px solid rgba(0,0,0, 0.4);
+}
+h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+
 }
 
