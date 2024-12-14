@@ -337,7 +337,7 @@ main > div:hover{
     text-align: center;
     background-color: white;
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 0.2rem;
 
 }
 .div7-1,.div7-2{
@@ -346,6 +346,7 @@ main > div:hover{
 h4{
     font-size: 1.1rem;
     font-weight: 900;
+    text-decoration: underline;
 
 }
 .div-8 > div img{
