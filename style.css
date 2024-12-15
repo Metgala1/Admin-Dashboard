@@ -376,5 +376,9 @@ h4{
     font-family: "dsecondfont";
     font-weight: 900;
 }
-
-
+main div img{
+    opacity: 0.7;
+}
+main div img:hover{
+    opacity: 1;
+}
